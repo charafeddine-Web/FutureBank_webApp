@@ -21,7 +21,12 @@ section form{
     display: flex;
     flex-direction: column;
     color: rgba(0, 0, 0, 0.54);
+    flex-basis: 100%;
     
+}
+section form{
+    justify-content: center;
+    align-items: center;
 }
 section form input{
     font-size: medium;
@@ -39,6 +44,14 @@ section form button{
     border: none;
     background-color: #d6af3b;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+    
+}
+
+
+
+
+@media screen and (max-width:767px){
+    section form{
+        flex-basis: 50%;
+    }
 }
