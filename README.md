@@ -43,15 +43,15 @@ _En tant que designer et développeur Front-End_, vous créerez la maquette pour
 
 
 ## Critères de performance
-_Assurer un score élevé dans l’outil Google Lighthouse en optimisant la vitesse de chargement, la réactivité, et l’interactivité des pages.
-_Accessibilité : Le site doit être accessible à tous. Il doit respecter les normes WCAG pour l'accessibilité.
-_Bonne maitrise et compréhension du code implémenté.
-_Conformité aux Bonnes Pratiques (Documentation de code/ Balises Sémantiques/ SEO/ etc.…).
-_Respecte des normes W3C et de préférence ce site doit s'aligner sur les normes des systèmes de grille de mise en page en 8 points
-_Utilisation de systèmes de contrôle de version Git
-_Le site doit être correctement déployé sur un service d'hébergement gratuit.
-_Le site doit s'adapter parfaitement a tout type d'écrans :
-__Grand Écran d'Ordinateur : À partir de 1280px de large.
-__Petit Écran d'Ordinateur : De 1024px à 1279px de large.
-__Tablette : De 768px à 1023px de large.
-__Mobile : Jusqu'à 767px de large.
+*Assurer un score élevé dans l’outil Google Lighthouse en optimisant la vitesse de chargement, la réactivité, et l’interactivité des pages.
+*Accessibilité : Le site doit être accessible à tous. Il doit respecter les normes WCAG pour l'accessibilité.
+*Bonne maitrise et compréhension du code implémenté.
+*Conformité aux Bonnes Pratiques (Documentation de code/ Balises Sémantiques/ SEO/ etc.…).
+*Respecte des normes W3C et de préférence ce site doit s'aligner sur les normes des systèmes de grille de mise en page en 8 points
+*Utilisation de systèmes de contrôle de version Git
+*Le site doit être correctement déployé sur un service d'hébergement gratuit.
+*Le site doit s'adapter parfaitement a tout type d'écrans :
+*Grand Écran d'Ordinateur : À partir de 1280px de large.
+*Petit Écran d'Ordinateur : De 1024px à 1279px de large.
+*Tablette : De 768px à 1023px de large.
+*Mobile : Jusqu'à 767px de large.
