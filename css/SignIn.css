@@ -1,0 +1,44 @@
+.back a{
+    color: #d6af3b;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img{
+    max-width: 20%;
+}
+
+section form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.54);
+    
+}
+section form input{
+    font-size: medium;
+    width: 25em;
+    height: 40px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+}
+section form button{
+    font-size: medium;
+    font-weight: bolder;
+    width: 5em;
+    height: 40px;
+    border: none;
+    background-color: #d6af3b;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
