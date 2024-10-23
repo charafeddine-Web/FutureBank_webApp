@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+    text-decoration: none;
 }
 .button{
     font-size: medium;
@@ -25,8 +26,6 @@ nav {
     background-color: #EFEFEF;
     padding: 0px 10px;
     align-items: center;
-
-
 }
 nav button{
     background-color: #D6AF3B;
