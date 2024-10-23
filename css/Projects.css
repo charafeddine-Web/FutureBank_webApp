@@ -80,10 +80,13 @@ nav .nav-links li a{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    line-height: 30px;
-    font-size: xx-large;
-    font-size: large;
+    line-height: 50px;
+    font-size: x-large;
+    border-radius: 9px;
     box-shadow :3px 5px 5px   #D6AF3B;
+}
+.whorwe p{
+
 }
 .new{
     display: flex;
@@ -95,7 +98,7 @@ nav .nav-links li a{
     justify-content: center;
 }
 .gride{
-  width: 78%;
+  width: 80%;
   height: 100%;
   display: grid;
   justify-content: space-between;
@@ -111,11 +114,12 @@ nav .nav-links li a{
 .gride h2{
     display: flex;
     justify-content: center;
-    margin-right: 45px;
+    
 }
 .gride p{
     display: flex;
     justify-content: center;
+    line-height: 20px;
     
 }
 .gride button{
@@ -123,15 +127,13 @@ nav .nav-links li a{
     justify-content: center;
     font-size: medium;
     font-weight: bolder;
-    text-align: center;
     width: 6em;
     height: 40px;   
     border: none;
     background-color: #d6af3b;
     border-radius: 10px;
 }
-    
-    
+
 
 .savingimg1{
     height: auto;
@@ -143,15 +145,17 @@ nav .nav-links li a{
     width: 100%;
 }
 
-.savingimg1 button{
-    margin-bottom: 50px;
-    margin-left: 120px; 
+.savingimg1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 9px;
 }
 .savingimg1 p{
-    font-weight: 600;
-    font-size:medium ;
+    font-weight: 400;
+    font-size: larger;
     text-align: center;
 }
 
