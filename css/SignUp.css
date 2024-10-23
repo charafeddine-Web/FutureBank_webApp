@@ -1,0 +1,131 @@
+.back a img{
+    color: #d6af3b;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: bold;
+}
+.back a img:hover{
+    opacity: 60%;
+}
+.formulaire{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire img{
+    max-width: 20%;
+}
+
+.formulaire form{
+    font-size: large;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.54);
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire form input{
+    font-size: large;
+    width: 25rem;
+    height: 60px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.formulaire form input::placeholder{
+    padding-left: 0px;
+    color: rgba(123, 123, 123, 0.5);
+}
+.formulaire form button:hover {
+    background-color: #80631b;
+}
+
+.formulaire form button{
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    width: 8em;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: #d6af3b;
+    border-radius: 10px;
+    margin: 30px auto; 
+}
+.ready p{
+    font-size: x-large;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    margin-bottom:0;
+    margin-right: 20px;
+}
+.ready p a{
+    font-weight:bolder;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*pour ground screen*/
+@media screen and (min-width: 1280px) {
+    .formulaire form input {
+        width: 30em; 
+    }
+    .formulaire form button {
+        width: 12em; 
+    }
+}
+/*pour  screen*/
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .formulaire form input {
+        width: 25em; /* Réduire légèrement */
+    }
+    .formulaire form button {
+        width: 10em;
+    }
+}
+
+/*pour tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .formulaire form input {
+        width: 30em;
+    }
+    .formulaire form button {
+        width: 9em;
+    }
+}
+
+/*pour Mobile*/
+
+@media screen and (max-width: 767px) {
+    .formulaire form input {
+        width: 95%; 
+    }
+    .formulaire form button {
+        width: 60%;
+    }
+    .formulaire img {
+        max-width: 70%;
+    }
+    .ready p {
+        font-size: small; 
+        padding-top: 0px;
+        justify-content: center;
+    }
+    .back a img {
+        width: 35px; 
+        height: 35px;
+      
+    }
+}
