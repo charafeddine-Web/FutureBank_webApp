@@ -7,13 +7,82 @@
 h1{
     margin: 0;
 }
+ul {margin-block: 0;
+    padding-inline-start: 0;
+    gap: 10px;
+}
 body{
     margin: 0;
     height: 100vh;
-    width: 100%;
+
+width: 100%;
 }
-nav {
+.burger.active .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger.active .line2 {
+    opacity: 0;
+}
+
+.burger.active .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 15%;
+    height: 30%;
+    background-color: #EFEFEF;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+/* Visible when the burger is clicked */
+.mobile-menu.active {
     display: flex;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: black;
+    z-index: 100;
+
+}
+
+.mobile-menu li {
+    margin: 20px 0;
+}
+
+.mobile-menu li a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Itim', cursive;
+}
+
+.mobile-signin {
+    background-color: #D6AF3B;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Responsive burger menu visible on smaller screens */
+
+nav {
+    display: flex   ;
     justify-content: space-between;
     background-color: #EFEFEF;
     padding: 0px 10px;
@@ -45,21 +114,43 @@ nav .nav-links {
 align-items: center;
 
 }
+nav ul {
+    display: block;
+}
+nav button {
+    display: block;
+}
 nav .nav-links li a{
     color: black;
     text-decoration: none;
     font-family: 'Itim', cursive;
 
 }
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
 header{
     background-image: url('../img/image\ 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     width: 100%;
 display: flex;
 
 }
 section{
-    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 header .header-content{
     width: 100%;
@@ -98,6 +189,11 @@ header button{
 
 
 }
+header button:hover{
+    background-color: rgb(214, 175, 59);
+cursor: pointer;
+
+}
 header .header-btn{
     display: flex;
     flex-direction: column;
@@ -106,6 +202,220 @@ header .header-btn{
     gap: 25px;
 }
 header .header-btn img{
-    height: 70px;
-    width: 70px;
+    height: 120px;
+    width: 100px;
+}
+.line {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px 0;
+
+
+
+}
+.line img{
+    width: 80%;
+}
+.section1 {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.container .line1 {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container .line2 {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 210px
+}
+.card {
+   
+    background-color: #fff;
+    box-shadow: 0px 1px 8px rgba(214, 175, 59, 0.8);
+    text-align: center;
+    padding: 20px;
+    height: 390px;
+    width: 270px; /* Adjust width as per your need */
+    margin: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    overflow: hidden;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+.card h2, .card p {
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    font-weight: bold;
+
+}
+.card p{
+    text-align: center;
+    line-height: 25px;
+}
+.card .i1 {
+    height: 200px;
+    width: 200px;
+}
+.card .i2 {
+    height: 160px;
+    width: 200px;
+}
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;    
+}
+.stats{
+    display: flex;
+    justify-content: center;
+}
+
+.stat-circle {
+    border: 2px solid rgba(235, 220, 189, 0.7); /* light gold color */
+    border-radius: 50%;
+    box-shadow: 0px 1px 8px rgba(214, 175, 59, 0.8);
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    font-weight: bold;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.stat-circle p {
+    margin: 0;
+    color: black;
+    line-height: 1.4;
+    font-size: 20px;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: column;
+ 
+}
+
+footer span {
+    padding-left: 20px;
+}
+span img {
+    height: 100px;
+    width: 20%;
+}
+footer .footer-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    position: relative;
+}
+footer .footer-details ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    
+ 
+}
+
+footer .footer-details .explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer .footer-details  h3 {
+  font-family: 'Itim', cursive; 
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+footer .sponsor .m {
+    height: 100px;
+    width: 100%;
+}
+footer .sponsor .v {
+    height: 45px;
+    width: 100%;
+}
+
+.sponsor{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and ( max-width: 768px) {
+
+  
+.container .line2{
+    display: none;
+
+}
+.stats-container{
+    gap: 40px;
+}
+.container .line1{
+    gap: 100px;
+}
+
+.card {
+    padding-bottom: 80px;
+}
+    .burger {display: block;
+    gap: 5px;}
+    nav ul {
+        display: none;
+    }
+    nav button {
+        display: none;
+    }
+    
+    .line2 {
+        display: none;
+    }
+    nav .nav-links {
+        display: none;
+    }
+    header p{
+        font-size: 15px;
+    }
+    header .title h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 60px;
+    position: relative;
+    font-weight: 300;
+    top: -24px;
+    }
+    header button {
+        width: 200px;
+        height: 65px;
+        font-size: 25px;
+    }
+    header {
+        height: 60vh;
+        width: 100%;
+
+    }
 }
