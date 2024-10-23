@@ -64,15 +64,14 @@
     display: flex;
     justify-content: end;
     align-content: end;
-    margin-bottom:0;
     margin-right: 20px;
 }
-.ready p a{
-    font-weight:bolder;
+
+.ready p a {
+    font-weight: bolder;
     text-decoration: none;
     color: black;
-}
-
+} 
 
 
 /*pour ground screen*/
