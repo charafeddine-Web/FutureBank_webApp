@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 
+    
+
 h1{
     margin: 0;
 }
@@ -31,7 +33,7 @@ width: 100%;
     position: absolute;
     top: 100px;
     right: 0;
-    width: 20%;
+    width: 30%;
     height: 40%;
     background-color: #EFEFEF;
     z-index: 10;
@@ -313,14 +315,15 @@ footer span {
     padding-left: 20px;
 }
 span img {
-    height: 100px;
-    width: 20%;
+    height: 120px;
+    width: 25%;
 }
 footer .footer-details{
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
     position: relative;
+    font-size: 25px;
 }
 footer .footer-details ul {
     list-style: none;
@@ -411,4 +414,28 @@ footer .sponsor .v {
         width: 100%;
 
     }
+    footer .footer-details{
+       
+        font-size: 10px;
+    }
+    footer {
+        height: 280px;
+    }
+    .sponsor {
+        align-items: center;
+        margin-top: -25px; 
+ }
+    span img {
+        height: 80px;
+        width: 50%;
+    }
+    footer .sponsor .m {
+        width: 50%;
+        height: 50%;
+    }
+    footer .sponsor .v {
+        width: 90%;
+        height: 10%;
+    }
+
 }
