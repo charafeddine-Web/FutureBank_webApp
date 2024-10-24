@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 
+<<<<<<< HEAD
 h1{
     margin: 0;
 }
@@ -14,6 +15,66 @@ body{
 }
 nav {
     display: flex;
+=======
+
+.burger img {
+    width: 45px;
+    height: 45px;
+
+}
+.show {
+    display: none;
+}
+.hide {display: none;}
+.mobile-menu {
+    display: none;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 20%;
+    height: 40%;
+    background-color: #EFEFEF;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+/* Visible when the burger is clicked */
+.mobile-menu.active {
+    display: flex;
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: black;
+    z-index: 100;
+
+}
+
+.mobile-menu li {
+    margin: 20px 0;
+}
+
+.mobile-menu li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Itim', cursive;
+}
+
+
+
+/* Responsive burger menu visible on smaller screens */
+
+nav {
+    display: flex   ;
+>>>>>>> bb2b8f028dd327719162f782f1ac619674df1d0d
     justify-content: space-between;
     background-color: #EFEFEF;
     padding: 0px 10px;
@@ -45,12 +106,22 @@ nav .nav-links {
 align-items: center;
 
 }
+<<<<<<< HEAD
+=======
+nav ul {
+    display: block;
+}
+nav button {
+    display: block;
+}
+>>>>>>> bb2b8f028dd327719162f782f1ac619674df1d0d
 nav .nav-links li a{
     color: black;
     text-decoration: none;
     font-family: 'Itim', cursive;
 
 }
+<<<<<<< HEAD
 
 .sec-title{
     margin-right: 0px;
@@ -231,3 +302,17 @@ h3{
     top: 125px;
 }
     
+=======
+.burger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+}
+>>>>>>> bb2b8f028dd327719162f782f1ac619674df1d0d

@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez FauteurBanke, la plateforme bancaire sécurisée et intuitive. Gérez vos comptes, effectuez des transactions et suivez vos investissements facilement, partout et à tout moment. Rejoignez-nous pour une expérience bancaire moderne." />
     <link rel="stylesheet" href="/css/SignIn.css">
-    <title>Sign In</title>
+    <link rel="icon" href="/img/Logo-titel.png" type="image/x-icon">
+    <title>FauteurBanke - Plateforme Bancaire Sécurisée et Moderne | Sign In</title>
+
 </head>
 <body>
     <div class="back">
-        <a href="">Back to home</a>
+        <a href="./Home.html"><img src="../img//Back.png" alt="Back to home"></a>
     </div>
-    <section>
+    <section class="formulaire">
         <img src="../img/login.svg" alt="Sign In">
         <div>
             <form action="" method="post">
                 <label for="email">Email</label>
-                <input type="email" name="email"><br><br>
+                <input type="email" name="email" placeholder="Your Email"><br><br>
                 <label for="password">Password</label>
-                <input type="password" name="password" >
-                <p>Forgot Password ?</p><br><br>
+                <input type="password" name="password"placeholder="Password" >
+                <a href="#">Forgot Password ?</a><br><br>
                 <button type="submit">Sign in</button>
             </form>
         </div>
     </section>
+    <div class="ready">
+        <p>Don't have an account ? <a href="/pages/SignUp.html">Sign Up</a></p>
+    </div>
 </body>
+
 </html>
