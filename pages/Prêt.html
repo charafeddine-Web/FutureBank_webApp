@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Pret.css">
     <title>Pret</title>
 </head>
+
 <body>
-    
+    <nav>
+        <img src="../img/logo-bank-nobg.png" alt="LogoBank">
+
+        <ul class="nav-links">
+         <li><a href="./Home.html">Home</a></li>
+         <li><a href="./Projects.html">Projects</a></li>
+         <li><a href="./Prêt.html">Pret</a></li>
+         <li><a href="">About Us</a></li>
+         <li><a href="./Contact.html">Contact Us</a></li>
+        </ul>
+     <button><a href="SignIn.html">Sign In</a></button>
+        
+
+        <div class="burger">
+          <img class="show" src="../img/burgermenu.png" alt="">
+          <img class="hide" src="../img/closeburger.png" alt="">
+
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="./Projects.html">Projects</a></li>
+                <li><a href="./Prêt.html">Pret</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="./SignIn.html">Login/SignUp</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Home section--->
+    <section class="pret">
+        <div class="pret-text">
+        </div>
+    </section>
+
+    <!--CALCULATOR-->
+    <section class="invest">
+        <div class="calculator">
+            <div class="calc_titre">
+                <h2>Investement Calculator </h2>
+            </div>
+            <div class="calc">
+                <div>
+                    <p>Borrowing :</p>
+                    <p>Duration :</p>
+                    <p>Interest rate before negotiation :</p>
+                    <p>Insurance rates :</p>
+                </div>
+                <div>
+                    <p>10.000$</p>
+                    <p>1an</p>
+                    <p>3.57%</p>
+                    <p>1%</p>
+                </div>
+            </div>
+            <button>Calculate</button>
+
+        </div>
+        <div class="payment">
+            <div class="calc_titre">
+                <h2>Your monthly payment : <br> <br> $0</h2>
+            </div>
+            <div class="calc">
+                <div>
+                    <p>Amount of your loan :</p>
+                    <p>Your monthly payment :</p>
+                    <p>Total cost of credit :</p>
+                    <p>Insurance rates :</p>
+                </div>
+                <div>
+                    <p>0$</p>
+                    <p>0$/Mois</p>
+                    <p>0$</p>
+                    <p>0$</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Avantage -->
+    <section class="avantage" id="avantage">
+        <div class="avantage_box">
+        </div>
+        <div>
+            <div class="avantage_content">
+                <article>
+                    <h1>THE BENEFITS</h1>
+                    <p>Send in your finance application and benefit from a personalised experience online or in branch.
+                    </p>
+                </article>
+                <article>
+                    <h1>SIMPLIFIED ROUTE</h1>
+                    <p>Describe your project in just a few clicks, and our advisers will take care of the rest.</p>
+                </article>
+                <article>
+                    <h1>PERSONALISED OFFER</h1>
+                    <p>Benefit from a personalised offer tailored to your needs.</p>
+                </article>
+                <article>
+                    <h1>DETAILED SIMULATOR</h1>
+                    <p>Simulate your borrowing capacity, monthly payment and ancillary costs.</p>
+                </article>
+            </div>
+    </section>
+
+    <!--contact-->
+
+    <section class="contact">
+        <div class="contact_box">
+            <h2>Enter your details to be contacted by one of our advisers</h2>
+        </div>
+
+        <div class="formulaire">
+
+            <div>
+                <img src="/img/pic-mobile.jpg">
+            </div>
+
+            <div class="send">
+                <form>
+
+                    <input type="Full Name" placeholder=" Full Name" required>
+
+                    <input type="Email" placeholder=" Email" required>
+
+                    <input type="number" placeholder=" Phone number" required>
+
+                    <input type="message" placeholder=" Subject" required>
+                    <input type="submit" value="Submit" />
+
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+<script src="../script/script.js"></script>
 </body>
+
 </html>
