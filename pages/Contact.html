@@ -1,41 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Contact.css">
+    <script src="../script/script.js"></script>
     <title>Contact US</title>
 </head>
+
 <body>
     <nav>
         <img src="../img/logo-bank-nobg.png" alt="LogoBank">
-
         <ul class="nav-links">
-         <li><a href="./Home.html">Home</a></li>
-         <li><a href="./Projects.html">Projects</a></li>
-         <li><a href="./Prêt.html">Pret</a></li>
-         <li><a href="">About Us</a></li>
-         <li><a href="./Contact.html">Contact Us</a></li>
+            <li><a href="./Home.html">Home</a></li>
+            <li><a href="./Projects.html">Projects</a></li>
+            <li><a href="./Prêt.html">Pret</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="./Contact.html">Contact Us</a></li>
         </ul>
-     <button><a href="SignIn.html">Sign In</a></button>
-        
+        <button><a href="SignIn.html">Sign In</a></button>
 
         <div class="burger">
-          <img class="show" src="../img/burgermenu.png" alt="">
-          <img class="hide" src="../img/closeburger.png" alt="">
-
+            <img class="show" src="../img/burgermenu.png" alt="burger menu">
+            <img class="hide" src="../img/closeburger.png" alt="close burger menu">
         </div>
+
         <div class="mobile-menu">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="./Home.html">Home</a></li>
                 <li><a href="./Projects.html">Projects</a></li>
                 <li><a href="./Prêt.html">Pret</a></li>
                 <li><a href="">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="./Contact.html">Contact Us</a></li>
                 <li><a href="./SignIn.html">Login/SignUp</a></li>
             </ul>
         </div>
     </nav>
+    <!-- <div id="img-contact">
+        <img src="../img/contact.jpeg" alt="contact-img">
+    </div> -->
+
+
+    <article>
+        <aside class="form">
+            <h2>Please fill out this form to be contacted again.</h2>
+            <p>By completing the form below, you will be connected with a FauteurBanke advisor.</p>
+            <form method="post">
+                <div class="all">
+                    <div class="inputs">
+                        <label for="lastname"></label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Lastname*">
+
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="Email*">
+
+
+                        <label for="adresse"></label>
+                        <input type="text" id="adresse" name="adresse" placeholder="Adresse*">
+
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject*">
+                        
+                       
+                    </div>
+                    <div class="inputs">
+                        <label for="firstname"></label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Firstname*">
+
+                        <label for="phone"> </label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number*">
+
+                        <label for="city"></label>
+                        <input type="text" id="city" name="city" placeholder="City*">
+            
+                        <label for="message"></label>
+                        <textarea name="message" id="message" name="message" placeholder="Message*"></textarea>
+                        
+                    </div>
+                </div>
+                   
     
+               
+                <div class="button">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </aside>
+        <!-- <aside>
+            <h2>Frequently Asked Question</h2>
+            <div>
+                <p>Can’t find what you’re looking for ?</p>
+                <h4>We would like to chat with you.</h4>
+            </div>
+            <div>
+                <div class="dropdown">
+                    <div class="dropdown2">+</div>
+                    <span>1.What services do you offer ?</span>
+                    <div class="dropdown-content">
+                    <p>We offer a variety of services, including Savings Accounts,Certificates of Deposit (CDs),Stocks.
+                        Our goal is to meet our clients' needs with customized and high-quality solutions. For more
+                        details, please visit our Services page.
+                    </p>
+                    </div>
+                  </div>
+            </div>
+        </aside> -->
+    </article>
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="para">
+            <p > <span>Can’t find what you’re looking for ?</span> <br> We would like to chat with you.</p>
+     
+        </div>
+        <details>
+            <summary>How can I customize my investments?</summary>
+            <div>
+                You can customize your investments by using our intuitive investment dashboard, where you can select specific assets, set investment goals, and adjust your portfolio as needed.
+            </div>
+        </details>
+        <details>
+            <summary>What types of loans does FutureBank offer?</summary>
+            <div>
+                FutureBank offers a range of loans, including personal loans, home equity loans, and business loans, each designed to meet your financial needs.
+            </div>
+        </details>
+        <details>
+            <summary>How do I access my account statements?</summary>
+            <div>
+                You can access your account statements by logging into your account on our website or mobile app, where you can download or view your statements anytime.
+            </div>
+        </details>
+        <details>
+            <summary>What security measures does FutureBank use?</summary>
+            <div>
+                FutureBank employs advanced security measures, including two-factor authentication, encryption, and continuous monitoring to protect your personal and financial information.
+            </div>
+        </details>
+    </section>
+    
+
+    <footer>
+        <span><img src="../img/FUTURE_BANK__1_-removebg-preview.png" alt="logo-bank"></span>
+        
+        <div class="footer-details">
+            <div class="contact">
+                <h3>Contact Info</h3>
+                <p>support@futurebank.com<br>+1 (800) 123-4567<br>FutureBank Headquarters123 <br> Innovation Street,<br> 
+                    Suite 500<br>New York, NY 10001, USA</p>
+            </div>
+            <div class="explore">
+                <h3>Explore More</h3>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Our Projects</li>
+                </ul>
+            </div>
+            <div class="sponsor">
+                <h3>Sponsors</h3>
+                <img class="m" src="../img/mastercard.png" alt="mastercard-logo">
+                <img class="v" src="../img/visaa.png" alt="visa-logo">
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
