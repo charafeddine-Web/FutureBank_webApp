@@ -426,3 +426,33 @@ footer .sponsor .v {
         height: 10%;
     }
 }
+@media screen and ( max-width: 1023px)  {
+    nav .nav-links {
+       font-size: 100%;
+       padding-right: 10px;
+    }
+    nav button{
+        font-size: 20px;
+
+    }
+   
+    header p{
+        font-size: 166%;
+    }
+    header .title h1 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 70px;
+        position: relative;
+        font-weight: 300;
+        top: -50px;
+    }
+    footer .sponsor .m {
+        width: 20%;
+        height: 30%;
+    }
+    footer .sponsor .v {
+        width: 65%;
+        height: 15%;
+    }
+
+}

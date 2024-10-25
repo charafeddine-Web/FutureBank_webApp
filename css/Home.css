@@ -4,7 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 
-    
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
 h1{
     margin: 0;
@@ -328,7 +331,7 @@ header .header-btn img{
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #484343;
 }
 
 .stat-circle p {
@@ -339,7 +342,7 @@ header .header-btn img{
 }
 footer {
     width: 100%;
-    height: 410px;
+    height: 430px;
     background-color: black;
     display: flex;
     color: white;
@@ -366,16 +369,24 @@ footer .footer-details ul {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
+text-decoration: none;
     
  
+}
+footer .footer-details ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 footer .footer-details .explore{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+ 
 }
+
+
+
 
 footer .footer-details  h3 {
   font-family: 'Itim', cursive; 
@@ -470,7 +481,7 @@ footer .sponsor .v {
         height: 50%;
     }
     footer .sponsor .v {
-        width: 90%;
+        width: 10%;
         height: 10%;
     }
 
@@ -486,7 +497,7 @@ footer .sponsor .v {
 
     }
     header p{
-        font-size: 40px;
+        font-size: 166%;
     }
     header .title h1 {
         font-family: 'Chakra Petch', sans-serif;
@@ -496,12 +507,12 @@ footer .sponsor .v {
         top: -50px;
     }
     footer .sponsor .m {
-        width: 50%;
-        height: 50%;
+        width: 20%;
+        height: 30%;
     }
     footer .sponsor .v {
-        width: 90%;
-        height: 10%;
+        width: 65%;
+        height: 15%;
     }
 
 }
