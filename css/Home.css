@@ -91,8 +91,31 @@ nav button{
     width: 150px;
     font-size: 25px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
 
  
+}
+nav button:hover {
+    background-color: rgba(214, 175, 59, 0.7);
+    transform: scale(0.8); 
+    box-shadow: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+nav button:active {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+
+}
+nav button  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 nav img{
     width: 240px;
@@ -303,7 +326,7 @@ header .header-btn img{
 }
 footer {
     width: 100%;
-    height: 400px;
+    height: 410px;
     background-color: black;
     display: flex;
     color: white;
@@ -428,6 +451,36 @@ footer .sponsor .v {
     span img {
         height: 80px;
         width: 50%;
+    }
+    footer .sponsor .m {
+        width: 50%;
+        height: 50%;
+    }
+    footer .sponsor .v {
+        width: 90%;
+        height: 10%;
+    }
+
+}
+/*Tablette Mode*/
+@media screen and ( max-width: 1023px)  {
+    nav .nav-links {
+       font-size: 100%;
+       padding-right: 10px;
+    }
+    nav button{
+        font-size: 20px;
+
+    }
+    header p{
+        font-size: 40px;
+    }
+    header .title h1 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 70px;
+        position: relative;
+        font-weight: 300;
+        top: -50px;
     }
     footer .sponsor .m {
         width: 50%;
