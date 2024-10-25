@@ -21,7 +21,7 @@ body{
 }
 /* Section Title for "Who We Are"*/
 .sec-title{
-    margin-right: 0px;
+    margin-right: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ body{
 }
 
 .sec-title h2{
-    margin-right: 680px;
+    margin-right: 42%;
     flex-direction: row-reverse;
     justify-content: center;
     font-size: 32px;
@@ -44,7 +44,7 @@ body{
     border: 2px solid;
     margin-left: 0px;
     margin-right: 0px;
-    width: 616px;
+    width: 43%;
 
 }
 /*Info Section: Contains Text and Image*/
@@ -398,16 +398,16 @@ nav .nav-links li a {
         display: flex;
         flex-direction: column-reverse;
         position: relative;
-        top: -48%;
+        top: -34%;
     }
     
     .back{
         background-color: #D6AF3B;
         width: 88%;
-        height: 25%;
+        height: 34%;
         margin-left: 19px;
         position: relative;
-        bottom: 432px;
+        bottom: 32%;
     }
 
     .min-back h3{
@@ -419,15 +419,14 @@ nav .nav-links li a {
     }
 
     .back-text pre{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .back-img{
-        flex: 1;
         text-align: right;
         position: relative;
-        left: 12%;
-        bottom: 49%;
+        left: 11%;
+        bottom: 44%;
     }
 
     .back-img img{
@@ -435,7 +434,7 @@ nav .nav-links li a {
         position: relative;
         bottom: 48%;
         width: 54%;
-        left: -18px;
+        left: -8%;
     }
 
     .team{
@@ -444,22 +443,16 @@ nav .nav-links li a {
     .deu-back{
         background-color: #D6AF3B;
         width: 73%;
-        height: 520px;
+        height: 170px;
         position: relative;
-        bottom: -430px;
-        left: 250px;
+        bottom: 36px;
+        left: 90px;
         border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     
-    .img-inf{
-        text-align: center;
-    }
-    
     .img-inf img{
-        position: relative;
-        top: -278px;
         margin-right: 10%;
         max-width: 80%;
         height: auto;
@@ -468,81 +461,78 @@ nav .nav-links li a {
     
     .tri-back{
         background-color: white;
-        width: 105%;
-        height: 420px;
+        width: 120%;
+        height: 248px;
         border-radius: 6px;
         border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     .our{
         position: relative;
-        top: -462px;
-        left: 100px;
+        top: -383px;
+        left: 36px;
         margin-right: 41%;
     }
     .our h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
         position: relative;
-        top: 99px;
+        top: 55px;
         left: 4%;
-        font-size: 36px;
+        font-size: 24px;
     }
     
     .tri-back p{
-        font-size: 38px;
+        font-size: 17px;
         margin-left: 6px;
         position: relative;
-        top: 36px;
+        top: 16px;
     }
 
     .end{
-        margin-top: -130px;
+        margin-top: -40%;
     }
     
     
     .fin-back{
         background-color: #D6AF3B;
         width: 77%;
-        height: 520px;
+        height: 204px;
         position: relative;
-        bottom: -154px;
-        left: 252px;
+        bottom: 28%;
+        left: 15%;
         border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     
-    .img-histo{
-        
-    }
     .img-histo img{
         max-width: 75%;
         height: auto;
-        margin-left: 15%;
+        margin-left: 8%;
         position: relative;
-        top: -547px;
+        top: -240px;
     }
     
     .histo{
         position: relative;
-        top: -760px;
-        left: 510px;
+        top: -400px;
+        left: 170px;
         margin-right: 41%;
     }
     
     .histo h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
-        font-size: 36px;
+        font-size: 19px;
         position: relative;
-        top: 100px;
-        right: 176px;
-        margin-left: 500px;
+        top: 60px;
+        right: 376px;
+        margin-left: 160%;
     }
     
     .histo-info{
         background-color: white;
-        width: 890px;
-        height: 645px;
+        width: 90%;
+        height: 220px;
         border-radius: 6px;
         border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -550,10 +540,10 @@ nav .nav-links li a {
     }
     
     .histo-info p{
-        font-size: 43px;
+        font-size: 13px;
         margin: 0px;
         position: relative;
-        top: 113px;
+        top: 18%;
         right: -7px;
     }
 }
