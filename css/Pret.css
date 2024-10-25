@@ -9,7 +9,7 @@ body {
 }
 
 .pret img {
-    max-width: 100%;
+    max-width:100%;
 }
 
 .invest {
@@ -68,11 +68,13 @@ h2 {
     margin-left: 30px;
 
 }
-#avantage{
+
+#avantage {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .avantage {
     /* padding: 50px 50px; */
     border-radius: 4px;
@@ -98,8 +100,6 @@ h2 {
     align-items: center;
     text-align: center;
     gap: 10em;
-    
-    /* padding: 0px 20px; */
 }
 
 .contact_box {
@@ -139,50 +139,6 @@ img {
     cursor: pointer;
     padding: 10px;
     margin-bottom: 20px;
-
-
-}
-
-/* Media Queries for responsiveness */
-@media (min-width: 768px) {
-
-    .calculator,
-    .payment {
-        width: 45%;
-    }
-
-    .calc {
-        gap: 30px;
-    }
-
-    .avantage_box,
-    .avantage_content {
-        padding: 0px 50px;
-    }
-    
-}
-
-@media (max-width: 600px) {
-    .calc {
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .contact form {
-        width: 90%;
-    }
-
-    .calculator button {
-        width: 50%;
-    }
-
-    .avantage {
-        padding: 20px 10px;
-        width:88%;
-    }
-    .avantage_content{
-        gap: 20px;
-    }
 }
 
 nav {
@@ -290,36 +246,6 @@ nav .nav-links li a {
     font-family: 'Itim', cursive;
 }
 
-/*content*/
-
-@media screen and (max-width: 768px) {
-    .invest {
-        width: 100%;
-    }
-}
-
-
-
-/*Nav*/
-@media screen and (max-width: 768px) {
-    .show {
-        display: block;
-    }
-
-    nav .nav-links {
-        display: none;
-    }
-
-    .burger {
-        display: block;
-        gap: 5px;
-    }
-
-    nav button {
-        display: none;
-    }
-}
-
 footer {
     width: 100%;
     height: 420px;
@@ -380,6 +306,131 @@ footer .sponsor .v {
     flex-direction: column;
 }
 
+
+article h2 {
+    padding-bottom: 30px;
+}
+
+aside {
+    display: flex;
+    gap: 5em;
+}
+
+aside form {
+    margin-top: -20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.button button {
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    width: 8em;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: #d6af3b;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+input::placeholder {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+input[type="text"],
+textarea {
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-bottom: 2px solid #D6AF3B;
+    outline: none;
+}
+
+
+/* Media Queries for responsiveness */
+@media (min-width: 768px) {
+
+    .calculator,
+    .payment {
+        width: 45%;
+    }
+
+    .calc {
+        gap: 30px;
+    }
+
+    .avantage_box,
+    .avantage_content {
+        padding: 0px 50px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .calc {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .contact form {
+        width: 90%;
+    }
+
+    .calculator button {
+        width: 50%;
+    }
+
+    .avantage {
+        padding: 20px 10px;
+        width: 88%;
+    }
+
+    .avantage_content {
+        gap: 20px;
+    }
+}
+
+/*Nav*/
+@media screen and (max-width: 768px) {
+    .invest {
+        width: 100%;
+    }
+
+    .show {
+        display: block;
+    }
+
+    nav .nav-links {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+        gap: 5px;
+    }
+
+    nav button {
+        display: none;
+    }
+}
+
 /*footer*/
 @media screen and (max-width: 768px) {
     footer .footer-details {
@@ -411,68 +462,151 @@ footer .sponsor .v {
     }
 }
 
-
-
-
-
-
-
-article h2{
-    padding-bottom: 30px;
-}
-aside{
-    display: flex;
-    gap:5em;
-}
-aside form{
-    margin-top: -20px;
-}
-.button {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    margin-bottom: 40px;
-}
-.button button{
-    font-size: large;
-    font-weight: bolder;
-    text-align: center;
-    width: 8em;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    background-color: #d6af3b;
-    border-radius: 10px;
-    margin: 30px auto  ; 
-}
-input::placeholder{
-    font-size: larger;
-    font-weight: bolder;
-    color: black;
-}
-input[type="text"],textarea {
-    width: 85%;
-    height: 40px;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px solid black;
-    padding-top: 30px;
-    
-}
-
-input[type="text"]:focus,textarea:focus {
-    border-bottom: 2px solid #D6AF3B; 
-    outline: none;
-}
-
 @media screen and (max-width: 768px) {
-    aside{
+    aside {
         flex-direction: column;
     }
-    aside.inputs{
+
+    aside.inputs {
         justify-content: center;
         align-items: center;
 
     }
 
 }
+
+@media screen and  (min-width: 769px) and (max-width: 1024px) {
+
+    .invest {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calculator,
+    .payment {
+        width: 100%;
+        box-sizing: border-box; 
+    }
+    .calculator{
+        margin-left:70px;
+    }
+
+    .calc {
+        gap: 15px; 
+    }
+
+    .avantage_box,
+    .avantage_content {
+        padding: 0px 30px; 
+    }
+
+    .contact form {
+        width: 90%;
+    }
+
+    .calculator button {
+        width: 20%; 
+    }
+
+    .avantage {
+        padding: 20px 15px; 
+        width: 91%; 
+    }
+
+    footer .footer-details {
+        font-size: 12px; 
+    }
+
+    footer {
+        height: auto; 
+    }
+
+    .sponsor {
+        margin-top: -10px; 
+    }
+
+    span img {
+        height: auto; 
+        width: 60%; 
+    }
+
+    footer .sponsor .m {
+        width: 60%; 
+        height: auto; 
+    }
+
+    footer .sponsor .v {
+        width: 80%; 
+        height: auto; 
+    }
+
+    aside {
+        flex-direction: row; 
+    }
+
+    aside.inputs {
+        justify-content: space-between; 
+        align-items: flex-start; 
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:1279px) {
+
+    body {
+        font-size: 32px; /* Increase base font size for better readability */
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    /* Styles for screens 1280px wide and up */
+    
+    body {
+        /* font-size: 2rem; Increase base font size for better readability */
+    }
+
+    .pret img{
+        width: 100%;
+    }
+
+    .calculator {
+        max-width: 60%; /* Adjust calculator width */
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto; /* Center horizontally */
+    }
+
+    .payment {
+        max-width: 70%; /* Adjust payment width */
+        margin-left: auto; /* Center horizontally */
+        margin-right: auto; /* Center horizontally */
+    }
+
+    .invest {
+        justify-content: space-between; /* Space out items */
+        gap: 4rem; /* Increase gap for larger screens */
+    }
+
+    nav {
+        padding: 0 20px; /* More padding for larger screens */
+    }
+
+    nav .nav-links {
+        font-size: 30px; /* Increase font size for navigation links */
+    }
+
+    footer {
+        height: auto; /* Adjust footer height */
+        padding: 40px 0; /* Add padding for better spacing */
+    }
+
+    footer .footer-details {
+        font-size: 16px; /* Increase footer font size */
+    }
+
+    .button button {
+        width: 10em; /* Adjust button size */
+    }
+
+    /* Add any other specific styles for larger screens */
+}
+
