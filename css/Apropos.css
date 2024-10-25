@@ -208,7 +208,7 @@ body{
     font-family: 'Arial Rounded MT Bold', sans-serif;
     font-size: 36px;
     position: relative;
-    top: 122px;
+    top: 100px;
     right: 176px;
     margin-left: 500px;
 }
@@ -223,12 +223,13 @@ body{
     
 }
 
-.histo-info pre{
-    font-size: 33px;
+.histo-info p{
+    font-family: 'Arial Rounded MT Bold', sans-serif;
+    font-size: 39px;
     margin: 0px;
     position: relative;
-    top: 138px;
-    right: 22px;
+    top: 113px;
+    right: -7px;
 }
     
 nav {
