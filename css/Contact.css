@@ -160,9 +160,10 @@ article img{
     filter: drop-shadow(20px 30px 20px 20px red);
 }
 
-.form h2, p{
+.form h2, article p{
     text-align: center;
-    padding-top: 15px;
+    padding: 0 10px;
+
 }
 
 form{
@@ -261,7 +262,7 @@ input[type="text"],textarea {
     height: 40px;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     
 }
 
@@ -330,55 +331,63 @@ input[type="text"]:focus,textarea:focus {
     display: flex;
     color: white;
     flex-direction: column;
+ 
 }
 
 footer span {
     padding-left: 20px;
 }
-
 span img {
     height: 120px;
     width: 25%;
 }
-
-footer .footer-details {
+footer .footer-details{
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
     position: relative;
     font-size: 25px;
 }
-
 footer .footer-details ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+text-decoration: none;
+    
+ 
+}
+footer .footer-details ul li a{
+    text-decoration: none;
+    color: white;
 }
 
-footer .footer-details .explore {
+footer .footer-details .explore{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+ 
 }
 
-footer .footer-details h3 {
-    font-family: 'Itim', cursive;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
 
+
+
+footer .footer-details  h3 {
+  font-family: 'Itim', cursive; 
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
 footer .sponsor .m {
     height: 100px;
     width: 100%;
 }
-
 footer .sponsor .v {
     height: 45px;
     width: 100%;
 }
 
-.sponsor {
+.sponsor{
     display: flex;
     flex-direction: column;
 }
@@ -406,6 +415,8 @@ footer .sponsor .v {
         width: 90%;
         height: 10%;
     }
+    input[type="text"],textarea {
+        width: 100%;}
 }
 
 
@@ -576,3 +587,32 @@ details[open] div {
   .dropdown:active .dropdown-content {
     display: block;
   }
+  @media screen and ( max-width: 1023px)  {
+    nav .nav-links {
+       font-size: 100%;
+       padding-right: 10px;
+    }
+    nav button{
+        font-size: 20px;
+
+    }
+    header p{
+        font-size: 166%;
+    }
+    header .title h1 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 70px;
+        position: relative;
+        font-weight: 300;
+        top: -50px;
+    }
+    footer .sponsor .m {
+        width: 20%;
+        height: 30%;
+    }
+    footer .sponsor .v {
+        width: 65%;
+        height: 15%;
+    }
+
+}
