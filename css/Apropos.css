@@ -19,7 +19,6 @@ body{
     height: 100vh;
     width: 100%;
 }
-/* Section Title for "Who We Are"*/
 .sec-title{
     margin-right: 0%;
     display: flex;
@@ -47,7 +46,6 @@ body{
     width: 43%;
 
 }
-/*Info Section: Contains Text and Image*/
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -56,7 +54,6 @@ body{
     height: 100vh; 
     margin-top: -6%;
 }
-/* Text Section: Description of FutureBank's mission and history*/
 .text {
     font-size: 35px;
     font-family: "Inter", sans-serif;
@@ -68,7 +65,6 @@ body{
     margin-left: 2%;
     
 }
-/*Image Section: Visual representation for the "Who We Are" section*/
 .image {
     text-align: center;
 }
@@ -78,7 +74,6 @@ body{
     height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-/*Section Background for "Why You Should Use FutureBank"*/
 .back{
     background-color: #D6AF3B;
     width: 72%;
@@ -87,7 +82,6 @@ body{
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-/*Title Section: Header for the reasons to use FutureBank*/
 .min-back h3{
     font-family: 'Arial Rounded MT Bold', sans-serif;
     margin-left: 4%;
@@ -95,11 +89,9 @@ body{
     top: 22px;
     font-size: 40px;
 }
-/*Text Section: Details about the advantages of choosing FutureBank*/
 .back-text pre{
     font-size: 36px;
 }
-/* <!-- Image Section: Visual related to FutureBank's offerings -->*/
 .back-img{
     /* flex: 1; */
     /* text-align: right; */
@@ -114,11 +106,9 @@ body{
     left: 34%;
     bottom: 48%;
 }
-/* Section for "Our Team"*/
 .team{
     margin-top: 0%;
 }
-/* Decorative Background for the team section*/
 .deu-back{
     background-color: #D6AF3B;
     width: 73%;
@@ -486,7 +476,8 @@ nav .nav-links li a {
         /*position: relative;*/
         bottom: 48%;
         width: 54%;
-        left: 0%;
+        left: -5%;
+        top: 30px;
     }
 
     .team{
@@ -601,6 +592,8 @@ nav .nav-links li a {
         right: -3px;
     }
 }
+
+
 footer {
     width: 100%;
     height: 470px;
