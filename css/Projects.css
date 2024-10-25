@@ -421,38 +421,6 @@ footer .sponsor .v {
         width: 90%;
         height: 10%;
     }
-<<<<<<< HEAD
-}
-@media screen and ( max-width: 1023px)  {
-    nav .nav-links {
-       font-size: 100%;
-       padding-right: 10px;
-    }
-    nav button{
-        font-size: 20px;
-
-    }
-   
-    header p{
-        font-size: 166%;
-    }
-    header .title h1 {
-        font-family: 'Chakra Petch', sans-serif;
-        font-size: 70px;
-        position: relative;
-        font-weight: 300;
-        top: -50px;
-    }
-    footer .sponsor .m {
-        width: 20%;
-        height: 30%;
-    }
-    footer .sponsor .v {
-        width: 65%;
-        height: 15%;
-    }
-
-=======
     .new01{
         text-align: center;
     }
@@ -471,5 +439,4 @@ footer .sponsor .v {
         width:30%;
         font-size: 1rem;
     }
->>>>>>> 72f040b12139464eb225f6f374ea89a4fda77d5d
 }
