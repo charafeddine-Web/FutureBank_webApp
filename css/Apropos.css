@@ -593,7 +593,6 @@ nav .nav-links li a {
     }
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) and (max-width: 1024px) {
     .sec-title{
         margin-right: 0px;
@@ -793,8 +792,6 @@ nav .nav-links li a {
         right: -3px;
     }
   }
-=======
->>>>>>> e67f822d1b75f11745770251ba03f8690971ebe6
 
 footer {
     width: 100%;
@@ -875,8 +872,8 @@ footer .sponsor .v {
         width: 50%;
     }
     footer .sponsor .m {
-        width: 50%;
-        height: 50%;
+        width: 15%;
+        height: 62%;
     }
     footer .sponsor .v {
         width: 90%;
