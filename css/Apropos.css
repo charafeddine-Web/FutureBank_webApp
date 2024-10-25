@@ -101,8 +101,8 @@ body{
 }
 /* <!-- Image Section: Visual related to FutureBank's offerings -->*/
 .back-img{
-    flex: 1;
-    text-align: right;
+    /* flex: 1; */
+    /* text-align: right; */
     position: relative;
     left: 17%;
     bottom: 48%;
@@ -111,6 +111,7 @@ body{
 .back-img img{
     text-align: right;
     position: relative;
+    left: 34%;
     bottom: 48%;
 }
 /* Section for "Our Team"*/
@@ -389,7 +390,7 @@ nav .nav-links li a {
     }
 
     .text p{
-        font-size: 15px;
+        font-size: 14px;
         margin-left: 2%;
         margin-top: -2%;
     }
@@ -398,13 +399,13 @@ nav .nav-links li a {
         display: flex;
         flex-direction: column-reverse;
         position: relative;
-        top: -34%;
+        top: -38%;
     }
     
     .back{
         background-color: #D6AF3B;
         width: 88%;
-        height: 34%;
+        height: 28%;
         margin-left: 19px;
         position: relative;
         bottom: 32%;
@@ -419,22 +420,22 @@ nav .nav-links li a {
     }
 
     .back-text pre{
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .back-img{
         text-align: right;
-        position: relative;
-        left: 11%;
+        /* position: relative; */
+        left: 7%;
         bottom: 44%;
     }
 
     .back-img img{
         text-align: right;
-        position: relative;
+        /*position: relative;*/
         bottom: 48%;
         width: 54%;
-        left: -8%;
+        left: 0%;
     }
 
     .team{
@@ -445,8 +446,8 @@ nav .nav-links li a {
         width: 73%;
         height: 170px;
         position: relative;
-        bottom: 36px;
-        left: 90px;
+        bottom: 86px;
+        left: 87px;
         border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -462,7 +463,7 @@ nav .nav-links li a {
     .tri-back{
         background-color: white;
         width: 120%;
-        height: 248px;
+        height: 200px;
         border-radius: 6px;
         border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -471,68 +472,70 @@ nav .nav-links li a {
         position: relative;
         top: -383px;
         left: 36px;
-        margin-right: 41%;
+        margin-right: 30%;
     }
     .our h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
         position: relative;
-        top: 55px;
+        top: 45px;
         left: 4%;
-        font-size: 24px;
+        font-size: 19px;
     }
     
     .tri-back p{
-        font-size: 17px;
+        font-size: 13px;
         margin-left: 6px;
         position: relative;
         top: 16px;
     }
 
     .end{
-        margin-top: -40%;
+        margin-top: -60%;
+        margin-bottom: 20%;
     }
     
     
     .fin-back{
         background-color: #D6AF3B;
-        width: 77%;
-        height: 204px;
+        width: 80%;
+        height: 144px;
         position: relative;
-        bottom: 28%;
-        left: 15%;
+        bottom: 52px;
+        left: 14%;
         border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     
     .img-histo img{
-        max-width: 75%;
+        max-width: 80%;
         height: auto;
         margin-left: 8%;
         position: relative;
-        top: -240px;
+        top: -235px;
     }
     
     .histo{
         position: relative;
-        top: -400px;
-        left: 170px;
+        top: -370px;
+        left: 100px;
         margin-right: 41%;
     }
     
-    .histo h3{
+    .histo-tit h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
         font-size: 19px;
         position: relative;
-        top: 60px;
-        right: 376px;
+        top: 50px;
+        right: 286px;
         margin-left: 160%;
+        white-space: nowrap;
     }
     
     .histo-info{
         background-color: white;
-        width: 90%;
-        height: 220px;
+        width: 109%;
+        height: 200px;
         border-radius: 6px;
         border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -540,11 +543,11 @@ nav .nav-links li a {
     }
     
     .histo-info p{
-        font-size: 13px;
+        font-size: 11px;
         margin: 0px;
         position: relative;
-        top: 18%;
-        right: -7px;
+        top: 20%;
+        right: -3px;
     }
 }
 footer {
