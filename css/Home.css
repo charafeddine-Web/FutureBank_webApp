@@ -93,23 +93,23 @@ nav button{
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 
 
  
 }
 nav button:hover {
     background-color: rgba(214, 175, 59, 0.7);
-    transform: scale(0.8); /* Zoom in the button on hover */
+    transform: scale(0.8); 
     box-shadow: black;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Larger shadow on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
 
 }
 
-/* Optional: Adding an active state when the button is clicked */
+
 nav button:active {
-    transform: scale(1.05); /* Slightly reduce the zoom effect when clicked */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly smaller shadow on active state */
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
 
 }
 nav button  a {
