@@ -4,6 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
 
 
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
 h1{
     margin: 0;
 }
@@ -31,7 +36,7 @@ width: 100%;
     position: absolute;
     top: 100px;
     right: 0;
-    width: 20%;
+    width: 30%;
     height: 40%;
     background-color: #EFEFEF;
     z-index: 10;
@@ -89,8 +94,31 @@ nav button{
     width: 150px;
     font-size: 25px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
 
  
+}
+nav button:hover {
+    background-color: rgba(214, 175, 59, 0.7);
+    transform: scale(0.8); 
+    box-shadow: black;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+nav button:active {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); 
+
+}
+nav button  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 nav img{
     width: 240px;
@@ -192,6 +220,19 @@ header .header-btn{
     align-items: center;
     gap: 25px;
 }
+.down-arrow {
+    width: 20px; /* Adjust as needed */
+    animation: bounce 1s infinite; /* Infinite bounce animation */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Starting position */
+    }
+    50% {
+        transform: translateY(20px); /* Move down by 10px */
+    }
+}
 header .header-btn img{
     height: 120px;
     width: 100px;
@@ -290,7 +331,6 @@ header .header-btn img{
     text-align: center;
     font-size: 18px;
     padding: 10px;
-    background-color: #fff;
 }
 
 .stat-circle p {
@@ -301,7 +341,7 @@ header .header-btn img{
 }
 footer {
     width: 100%;
-    height: 400px;
+    height: 430px;
     background-color: black;
     display: flex;
     color: white;
@@ -313,30 +353,39 @@ footer span {
     padding-left: 20px;
 }
 span img {
-    height: 100px;
-    width: 20%;
+    height: 120px;
+    width: 25%;
 }
 footer .footer-details{
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
     position: relative;
+    font-size: 25px;
 }
 footer .footer-details ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
+text-decoration: none;
     
  
+}
+footer .footer-details ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 footer .footer-details .explore{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+ 
 }
+
+
+
 
 footer .footer-details  h3 {
   font-family: 'Itim', cursive; 
@@ -411,4 +460,58 @@ footer .sponsor .v {
         width: 100%;
 
     }
+    footer .footer-details{
+       
+        font-size: 10px;
+    }
+    footer {
+        height: 280px;
+    }
+    .sponsor {
+        align-items: center;
+        margin-top: -25px; 
+ }
+    span img {
+        height: 80px;
+        width: 50%;
+    }
+    footer .sponsor .m {
+        width: 50%;
+        height: 50%;
+    }
+    footer .sponsor .v {
+        width: 10%;
+        height: 10%;
+    }
+
+}
+/*Tablette Mode*/
+@media screen and ( max-width: 1023px)  {
+    nav .nav-links {
+       font-size: 100%;
+       padding-right: 10px;
+    }
+    nav button{
+        font-size: 20px;
+
+    }
+    header p{
+        font-size: 166%;
+    }
+    header .title h1 {
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 70px;
+        position: relative;
+        font-weight: 300;
+        top: -50px;
+    }
+    footer .sponsor .m {
+        width: 20%;
+        height: 30%;
+    }
+    footer .sponsor .v {
+        width: 65%;
+        height: 15%;
+    }
+
 }
