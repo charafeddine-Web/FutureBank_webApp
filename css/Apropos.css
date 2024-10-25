@@ -9,7 +9,8 @@
 h1{
     margin: 0;
 }
-ul {margin-block: 0;
+ul {
+    margin-block: 0;
     padding-inline-start: 0;
     gap: 10px;
 }
@@ -18,7 +19,7 @@ body{
     height: 100vh;
     width: 100%;
 }
-
+/* Section Title for "Who We Are"*/
 .sec-title{
     margin-right: 0px;
     display: flex;
@@ -46,7 +47,7 @@ body{
     width: 616px;
 
 }
-
+/*Info Section: Contains Text and Image*/
 .info {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -55,7 +56,7 @@ body{
     height: 100vh; 
     margin-top: -6%;
 }
-
+/* Text Section: Description of FutureBank's mission and history*/
 .text {
     font-size: 35px;
     font-family: "Inter", sans-serif;
@@ -67,7 +68,7 @@ body{
     margin-left: 2%;
     
 }
-
+/*Image Section: Visual representation for the "Who We Are" section*/
 .image {
     text-align: center;
 }
@@ -77,7 +78,7 @@ body{
     height: auto;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-
+/*Section Background for "Why You Should Use FutureBank"*/
 .back{
     background-color: #D6AF3B;
     width: 72%;
@@ -86,7 +87,7 @@ body{
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
-
+/*Title Section: Header for the reasons to use FutureBank*/
 .min-back h3{
     font-family: 'Arial Rounded MT Bold', sans-serif;
     margin-left: 4%;
@@ -94,11 +95,11 @@ body{
     top: 22px;
     font-size: 40px;
 }
-
+/*Text Section: Details about the advantages of choosing FutureBank*/
 .back-text pre{
     font-size: 36px;
 }
-
+/* <!-- Image Section: Visual related to FutureBank's offerings -->*/
 .back-img{
     flex: 1;
     text-align: right;
@@ -112,11 +113,11 @@ body{
     position: relative;
     bottom: 48%;
 }
-
+/* Section for "Our Team"*/
 .team{
     margin-top: 0%;
 }
-
+/* Decorative Background for the team section*/
 .deu-back{
     background-color: #D6AF3B;
     width: 73%;
@@ -151,9 +152,10 @@ body{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .our{
-    position: absolute;
-    top: 288%;
+    position: relative;
+    top: -462px;
     left: 100px;
+    margin-right: 41%;
 }
 .our h3{
     font-family: 'Arial Rounded MT Bold', sans-serif;
@@ -163,45 +165,44 @@ body{
     font-size: 36px;
 }
 
-.tri-back pre{
-    font-size: 30px;
-    margin: 0px;
+.tri-back p{
+    font-size: 38px;
+    margin-left: 6px;
     position: relative;
-    top: 80px;
+    top: 36px;
 }
 
 .end{
-    margin-top: -190px;
+    margin-top: -130px;
 }
 
 
 .fin-back{
     background-color: #D6AF3B;
-    width: 79%;
+    width: 77%;
     height: 520px;
     position: relative;
-    bottom: -470px;
-    left: 250px;
+    bottom: -154px;
+    left: 252px;
     border-radius: 6px;
     z-index: -1;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-.img-histo{
-    margin-bottom: 380px;
-}
+
 .img-histo img{
     max-width: 75%;
     height: auto;
     margin-left: 15%;
     position: relative;
-    top: -235px;
+    top: -547px;
 }
 
 .histo{
-    position: absolute;
-    top: 440%;
-    left: 35%;
+    position: relative;
+    top: -760px;
+    left: 510px;
+    margin-right: 41%;
 }
 
 .histo h3{
@@ -224,8 +225,7 @@ body{
 }
 
 .histo-info p{
-    font-family: 'Arial Rounded MT Bold', sans-serif;
-    font-size: 39px;
+    font-size: 43px;
     margin: 0px;
     position: relative;
     top: 113px;
@@ -438,13 +438,16 @@ nav .nav-links li a {
         left: -18px;
     }
 
+    .team{
+        margin-top: 0%;
+    }
     .deu-back{
         background-color: #D6AF3B;
         width: 73%;
-        height: 190px;
+        height: 520px;
         position: relative;
-        bottom: 314px;
-        left: 94px;
+        bottom: -430px;
+        left: 250px;
         border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -456,115 +459,102 @@ nav .nav-links li a {
     
     .img-inf img{
         position: relative;
-        top: -525px;
+        top: -278px;
         margin-right: 10%;
         max-width: 80%;
         height: auto;
-        border-radius: 4%;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     
     .tri-back{
         background-color: white;
-        width: 101%;
-        height: 169px;
+        width: 105%;
+        height: 420px;
         border-radius: 6px;
+        border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-        position: relative;
-        bottom: 1674px;
-        right: 55px;
     }
-
     .our{
-        position: absolute;
-        top: 288%;
+        position: relative;
+        top: -462px;
         left: 100px;
+        margin-right: 41%;
     }
-
     .our h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
         position: relative;
-        top: -1625px;
-        left: -11%;
-        font-size: 23px;
-        z-index: 10;
+        top: 99px;
+        left: 4%;
+        font-size: 36px;
     }
     
-    .tri-back pre{
-        font-size: 12px;
-        font-family: 'Arial Rounded MT Bold', sans-serif;
-        margin: 0px;
+    .tri-back p{
+        font-size: 38px;
+        margin-left: 6px;
         position: relative;
-        top: 28px;
-        left: 2px;
+        top: 36px;
     }
 
     .end{
-        margin-top: -190px;
+        margin-top: -130px;
     }
     
     
     .fin-back{
         background-color: #D6AF3B;
-        width: 86%;
-        height: 202px;
+        width: 77%;
+        height: 520px;
         position: relative;
-        bottom: 94px;
-        left: 56px;
-        border-radius: 10px;
+        bottom: -154px;
+        left: 252px;
+        border-radius: 6px;
         z-index: -1;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
     }
     
     .img-histo{
-        margin-bottom: 380px;
+        
     }
     .img-histo img{
-        max-width: 83%;
+        max-width: 75%;
         height: auto;
-        margin-left: 8%;
-        border-radius: 10px;
+        margin-left: 15%;
         position: relative;
-        top: -331px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        top: -547px;
     }
     
     .histo{
-        position: absolute;
-        top: 440%;
-        left: 35%;
+        position: relative;
+        top: -760px;
+        left: 510px;
+        margin-right: 41%;
     }
     
     .histo h3{
         font-family: 'Arial Rounded MT Bold', sans-serif;
-        font-size: 19px;
+        font-size: 36px;
         position: relative;
-        top: -2601px;
-        right: 423px;
+        top: 100px;
+        right: 176px;
         margin-left: 500px;
-        z-index: 10;
     }
     
     .histo-info{
-        width: 53%;
-        height: 344px;
+        background-color: white;
+        width: 890px;
+        height: 645px;
         border-radius: 6px;
         border: #868383 solid 2px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-        position: relative;
-        bottom: 2663px;
-        right: 7%;
-        
         
     }
     
     .histo-info p{
-        font-size: 19px;
+        font-size: 43px;
         margin: 0px;
         position: relative;
-        top: 45px;
-        right: -4px;
-       
+        top: 113px;
+        right: -7px;
     }
 }
 footer {
