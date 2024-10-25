@@ -1,57 +1,138 @@
-.back a{
+.back a img{
     color: #d6af3b;
+    width: 40px;
+    height: 40px;
     text-decoration: none;
+    box-sizing: border-box;
     font-size: large;
     font-weight: bold;
-    
 }
-section{
+.back a img:hover{
+    opacity: 60%;
+}
+.formulaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section img{
+.formulaire img{
     max-width: 20%;
 }
 
-section form{
+.formulaire form{
+    font-size: large;
     padding-top: 30px;
+    color: rgba(0, 0, 0, 0.54);
     display: flex;
     flex-direction: column;
-    color: rgba(0, 0, 0, 0.54);
-    flex-basis: 100%;
-    
 }
-section form{
-    justify-content: center;
-    align-items: center;
-}
-section form input{
-    font-size: medium;
+
+.formulaire form input{
+    font-size: large;
     width: 25em;
-    height: 40px;
+    height: 60px;
     border: none;
     background-color: rgba(217, 217, 217, 0.5);
     border-radius: 10px;
+    padding-left: 20px;
 }
-section form button{
-    font-size: medium;
+.formulaire form input::placeholder{
+    padding-left: 0px;
+    color: rgba(123, 123, 123, 0.5);
+}
+.formulaire form button:hover {
+    background-color: #80631b;
+}
+
+.formulaire form button{
+    font-size: large;
     font-weight: bolder;
-    width: 5em;
-    height: 40px;
+    text-align: center;
+    width: 8em;
+    height: 60px;
     border: none;
+    cursor: pointer;
     background-color: #d6af3b;
     border-radius: 10px;
+    margin: 5px auto; 
+}
+
+form a{
+    text-align: end;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    padding-top: 10px;
     
+}
+.ready p{
+    font-size: x-large;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    margin-right: 20px;
+}
+.ready p a{
+    font-weight:bolder;
+    text-decoration: none;
+    color: black;
 }
 
 
+/*********************************************************Medie Quiery**********************************************/
 
+/*pour ground screen*/
+@media screen and (min-width: 1280px) {
+    .formulaire form input {
+        width: 30em; 
+    }
+    .formulaire form button {
+        width: 12em; 
+    }
+}
+/*pour  screen*/
 
-@media screen and (max-width:767px){
-    section form{
-        flex-basis: 50%;
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .formulaire form input {
+        width: 25em;
+    }
+    .formulaire form button {
+        width: 10em;
+    }
+}
+
+/*pour tablette */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .formulaire form input {
+        width: 30em;
+    }
+    .formulaire form button {
+        width: 9em;
+    }
+}
+
+/*pour Mobile*/
+
+@media screen and (max-width: 767px) {
+    .formulaire form input {
+        width: 95%; 
+    }
+    .formulaire form button {
+        width: 60%;
+    }
+    .formulaire img {
+        max-width: 70%;
+    }
+    .ready p {
+        font-size: small; 
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .back a img {
+        width: 35px; 
+        height: 35px;
+      
     }
 }
