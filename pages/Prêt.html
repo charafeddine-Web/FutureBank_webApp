@@ -3,36 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Pret.css">
+   
     <title>Pret</title>
 </head>
 
 <body>
     <nav>
         <img src="../img/logo-bank-nobg.png" alt="LogoBank">
-
         <ul class="nav-links">
-         <li><a href="./Home.html">Home</a></li>
-         <li><a href="./Projects.html">Projects</a></li>
-         <li><a href="./Prêt.html">Pret</a></li>
-         <li><a href="./Apropos.html">About Us</a></li>
-         <li><a href="./Contact.html">Contact Us</a></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="./Projects.html">Projects</a></li>
+            <li><a href="./Prêt.html">Pret</a></li>
+            <li><a href="Apropos.html">About&nbsp;Us</a></li>
+            <li><a href="./Contact.html">Contact&nbsp;Us</a></li>
         </ul>
-     <button><a href="SignIn.html">Sign In</a></button>
-        
+        <button><a href="SignIn.html">Sign&nbsp;In</a></button>
 
         <div class="burger">
-          <img class="show" src="../img/burgermenu.png" alt="">
-          <img class="hide" src="../img/closeburger.png" alt="">
-
+            <img class="show" src="../img/burgermenu.png" alt="burger menu">
+            <img class="hide" src="../img/closeburger.png" alt="close burger menu">
         </div>
+
         <div class="mobile-menu">
             <ul>
                 <li><a href="./Home.html">Home</a></li>
                 <li><a href="./Projects.html">Projects</a></li>
                 <li><a href="./Prêt.html">Pret</a></li>
-                <li><a href="./Apropos.html">About Us</a></li>
+                <li><a href="Apropos.html">About Us</a></li>
                 <li><a href="./Contact.html">Contact Us</a></li>
                 <li><a href="./SignIn.html">Login/SignUp</a></li>
             </ul>
@@ -40,85 +40,126 @@
     </nav>
 
     <!--Home section--->
+
     <section class="pret">
-        <div class="pret-text">
-        </div>
+        <img src="../img/jakub-zerdzicki-ykgLX_CwtDw-unsplash.jpg" alt="img">
     </section>
 
     <!--CALCULATOR-->
+
     <section class="invest">
         <div class="calculator">
-            <div class="calc_titre">
-                <h2>Investement Calculator </h2>
-            </div>
+            <h2>Investment Calculator</h2>
             <div class="calc">
-                <div>
-                    <p>Borrowing :</p>
-                    <p>Duration :</p>
-                    <p>Interest rate before negotiation :</p>
-                    <p>Insurance rates :</p>
+                <div class="input-group">
+                    <label for="amount">Borrowing Amount:</label>
+                    <input type="number" id="amount"  value="0">
                 </div>
-                <div>
-                    <p>10.000$</p>
-                    <p>1an</p>
-                    <p>3.57%</p>
-                    <p>1%</p>
+                <div class="input-group">
+                    <label for="duration">Duration (years):</label>
+                    <input type="number" id="duration" value="0">
+                </div>
+                <div class="input-group">
+                    <label for="interest">Interest Rate (%):</label>
+                    <input type="number" id="interest"  value="0">
+                </div>
+                <div class="input-group">
+                    <label for="insurance">Insurance Rate (%):</label>
+                    <input type="number" id="insurance"  value="0">
                 </div>
             </div>
-            <button>Calculate</button>
-
+            <div id="button">
+                <button id="calculateButton">Calculate</button>
+            </div>
         </div>
         <div class="payment">
             <div class="calc_titre">
-                <h2>Your monthly payment : <br> <br> $0</h2>
+                <h2>Your monthly payment: <br> <br> <span id="monthlyPayment">0$</span></h2>
             </div>
-            <div class="calc">
+            <div class="res">
                 <div>
-                    <p>Amount of your loan :</p>
-                    <p>Your monthly payment :</p>
-                    <p>Total cost of credit :</p>
-                    <p>Insurance rates :</p>
+                    <p>Amount of your loan:</p>
+                    <p>Your monthly payment:</p>
+                    <p>Total cost of credit:</p>
+                    <p>Insurance rates:</p>
                 </div>
                 <div>
-                    <p>0$</p>
-                    <p>0$/Mois</p>
-                    <p>0$</p>
-                    <p>0$</p>
+                    <p id="loanAmountDisplay">0$</p>
+                    <p id="monthlyPaymentDisplay">0$/Month</p>
+                    <p id="totalCostDisplay">0$</p>
+                    <p id="insuranceDisplay">0$</p>
                 </div>
             </div>
-
         </div>
     </section>
+    <script src="../script/script.js"></script>
+
 
     <!-- Avantage -->
+
     <section class="avantage" id="avantage">
-        <div class="avantage_box">
-        </div>
-        <div>
             <div class="avantage_content">
                 <article>
                     <h1>THE BENEFITS</h1>
-                    <p>Send in your finance application and benefit from a personalised experience online or in branch.
+                    <p>Send in your finance application <br> and benefit  from a personalised <br>experience online or in branch.
                     </p>
                 </article>
                 <article>
                     <h1>SIMPLIFIED ROUTE</h1>
-                    <p>Describe your project in just a few clicks, and our advisers will take care of the rest.</p>
+                    <p>Describe your project in just a <br>few clicks, and our advisers will <br>take care of the rest.</p>
                 </article>
                 <article>
                     <h1>PERSONALISED OFFER</h1>
-                    <p>Benefit from a personalised offer tailored to your needs.</p>
+                    <p>Benefit from a personalised offer <br><br>tailored to your needs.</p>
                 </article>
                 <article>
                     <h1>DETAILED SIMULATOR</h1>
-                    <p>Simulate your borrowing capacity, monthly payment and ancillary costs.</p>
+                    <p>Simulate your borrowing capacity,<br> <br>monthly payment and ancillary costs.</p>
                 </article>
             </div>
     </section>
 
     <!--contact-->
 
-    <section class="contact">
+    <article>
+        <h2>Enter your details to be contacted by one of our advisers</h2>
+
+        <aside class="form">
+            <div>
+                <img src="/img/pic-mobile.jpg">
+            </div>
+            <form method="post">
+                <div class="all">
+                    <div class="inputs">
+                        <label for="Full_name"></label>
+                        <input type="text" id="Full_name" name="Full_name" placeholder="Full Name*">
+
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="Email*">
+
+                        <label for="phone"> </label>
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number*">
+
+
+                        <label for="subject"></label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject*">
+
+
+
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </aside>
+    </article>
+
+
+
+
+
+        <!-- <section class="contact">
         <div class="contact_box">
             <h2>Enter your details to be contacted by one of our advisers</h2>
         </div>
@@ -139,6 +180,7 @@
                     <input type="number" placeholder=" Phone number" required>
 
                     <input type="message" placeholder=" Subject" required>
+
                     <input type="submit" value="Submit" />
 
                 </form>
@@ -147,11 +189,33 @@
         </div>
 
 
-    </section>
+    </section> -->
+        <footer>
+            <span><img src="../img/FUTURE_BANK__1_-removebg-preview.png" alt="logo-bank"></span>
 
-
-
-<script src="../script/script.js"></script>
+            <div class="footer-details">
+                <div class="contact">
+                    <h3>Contact Info</h3>
+                    <p>support@futurebank.com<br>+1 (800) 123-4567<br>FutureBank Headquarters123 <br> Innovation
+                        Street,<br>
+                        Suite 500<br>New York, NY 10001, USA</p>
+                </div>
+                <div class="explore">
+                    <h3>Explore More</h3>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>About Us</li>
+                        <li>Our Projects</li>
+                    </ul>
+                </div>
+                <div class="sponsor">
+                    <h3>Sponsors</h3>
+                    <img class="m" src="../img/mastercard.png" alt="mastercard-logo">
+                    <img class="v" src="../img/visaa.png" alt="visa-logo">
+                </div>
+            </div>
+        </footer>
+ 
 </body>
 
 </html>
