@@ -74,7 +74,7 @@ h2 {
 
 .calculator,
 .payment {
-    width: 100%;
+    width: 45%;
     max-width: 80%;
     border-radius: 4px;
     cursor: pointer;
@@ -82,7 +82,7 @@ h2 {
 }
 
 .payment {
-    width: 100%;
+    width: 45%;
     max-width: 85%;
     /* padding: 20px; */
     margin-left: 30px;
@@ -164,7 +164,7 @@ img {
 }
 
 /* Media Queries for responsiveness */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     .calculator,
     .payment {
@@ -537,10 +537,14 @@ input[type="text"]:focus,textarea:focus {
     }
 
 }
-@media screen and ( max-width: 1023px)  {
+@media screen and ( max-width: 1024px)  {
     nav .nav-links {
        font-size: 100%;
        padding-right: 10px;
+    }
+    .calculator,
+    .payment {
+        width: 45%;
     }
     nav button{
         font-size: 20px;
@@ -563,6 +567,43 @@ input[type="text"]:focus,textarea:focus {
     footer .sponsor .v {
         width: 65%;
         height: 15%;
+    }
+     .invest {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calculator,
+    .payment {
+        width: 100%;
+        box-sizing: border-box; 
+    }
+    .calculator{
+        margin-left:70px;
+    }
+
+    .calc {
+        gap: 15px; 
+    }
+
+    .avantage_box,
+    .avantage_content {
+        padding: 0px 30px; 
+    }
+
+    .contact form {
+        width: 90%;
+    }
+
+    .calculator button {
+        width: 50%; 
+        margin-top: 30px;
+    }
+    
+    .avantage {
+        padding: 20px 15px; 
+        width: 91%; 
     }
 
 }
