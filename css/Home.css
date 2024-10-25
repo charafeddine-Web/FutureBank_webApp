@@ -217,6 +217,19 @@ header .header-btn{
     align-items: center;
     gap: 25px;
 }
+.down-arrow {
+    width: 20px; /* Adjust as needed */
+    animation: bounce 1s infinite; /* Infinite bounce animation */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0); /* Starting position */
+    }
+    50% {
+        transform: translateY(20px); /* Move down by 10px */
+    }
+}
 header .header-btn img{
     height: 120px;
     width: 100px;

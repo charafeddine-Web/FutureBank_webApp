@@ -162,7 +162,8 @@ article img{
 
 .form h2, p{
     text-align: center;
-    padding-top: 15px;
+    padding: 0 10px;
+
 }
 
 form{
@@ -261,7 +262,7 @@ input[type="text"],textarea {
     height: 40px;
     padding: 10px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     
 }
 
@@ -406,6 +407,8 @@ footer .sponsor .v {
         width: 90%;
         height: 10%;
     }
+    input[type="text"],textarea {
+        width: 100%;}
 }
 
 
